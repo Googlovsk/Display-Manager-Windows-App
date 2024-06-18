@@ -61,12 +61,12 @@ namespace DisplayManager.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
-        internal static byte[] display {
+        internal static System.Drawing.Icon display {
             get {
                 object obj = ResourceManager.GetObject("display", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }
