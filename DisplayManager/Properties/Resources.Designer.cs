@@ -69,5 +69,15 @@ namespace DisplayManager.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon display_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("display_128x128", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }
