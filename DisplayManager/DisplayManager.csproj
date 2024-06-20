@@ -8,7 +8,10 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>True</UseWindowsForms>
     <ApplicationIcon>display_128x128.ico</ApplicationIcon>
+	<PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
+
+
 
   <ItemGroup>
     <Content Include="display_128x128.ico" />
@@ -39,5 +42,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	
 
 </Project>
